@@ -1,6 +1,7 @@
+from dataclasses import dataclass
 
 
-# add manager here
+@dataclass
 class Actor:
     id: int
     first_name: str
