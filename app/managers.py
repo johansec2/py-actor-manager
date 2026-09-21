@@ -59,3 +59,4 @@ class ActorManager:
 
         self.connection.execute(query, (pk,))
         self.connection.commit()
+    
